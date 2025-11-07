@@ -6,7 +6,7 @@
 | **Speed**               | Slower for operations due to network dependency                                            | Faster for local operations (commit, branch, merge)                                           |
 | **Backup**              | Single point of failure; if server goes down, repo may be lost                             | Every clone is a full backup; safer against data loss                                         |
 | **Branching & Merging** | Usually slower, harder                                                                     | Lightweight, fast, easy to create and merge branches                                          |
-| **Examples**            | SVN, CVS, Perforce                                                                         | Git, Mercurial, Bazaar                                                                        |
+| **Examples**            | SVN                                                                                        | Git                                                                      |
 | **Collaboration**       | Developers work on same central repo                                                       | Developers work on local repos, share changes via push/pull                                   |
 | **History Access**      | Only available on server                                                                   | Full history available locally, even offline                                                  |
 
