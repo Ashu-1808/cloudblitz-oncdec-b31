@@ -1,5 +1,18 @@
-#  how to generate public private key pair
+🔐 1. What is SSH in Git?
+
+SSH (Secure Shell) provides a secure way to connect to remote servers.
+
+When you use SSH with GitHub, GitLab, or Bitbucket:
+
+You don’t need to enter username/password every time.
+
+Authentication happens via a public-private key pair.
+
+
+
+##  how to generate public private key pair
 ## below command will create keypair in user's home dir
+
 ````
 ssh-keygen
 ````
