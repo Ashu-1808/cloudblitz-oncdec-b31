@@ -183,3 +183,7 @@ PROD:  Instance → Docker → Image → Container
 
 Same image → Same result → No mismatch ✔
 
+
+# Diff Monolithic vs Microservises Architecture
+<img width="1281" height="601" alt="image" src="https://github.com/user-attachments/assets/b6704028-f9e4-4331-a65c-aff79077393a" />
+
