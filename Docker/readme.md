@@ -1,7 +1,7 @@
 **Date: 21 Nov 2025**
 
 # $${\color{lightblue}{\textbf{🐳 Docker}}}$$
-
+<img width="1262" height="657" alt="image" src="https://github.com/user-attachments/assets/7fb03208-1d32-4a77-b84c-b50fb166245e" />
 ---
 
 ## $${\color{orange}{\textbf{📌 Understanding the Software Development Teams}}}$$
@@ -190,6 +190,38 @@ Same image → Same result → No mismatch ✔
 <img width="1285" height="575" alt="image" src="https://github.com/user-attachments/assets/6f20b98e-64a5-4ec5-a680-0740ee1b395e" />
 <img width="1365" height="547" alt="image" src="https://github.com/user-attachments/assets/52c25be2-c2e0-4806-a3cb-b54636237476" />
 <img width="1542" height="593" alt="image" src="https://github.com/user-attachments/assets/02800600-5a46-4ca0-9b17-8b6e76bbb625" />
+
+##  ${\color{lightblue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
+
+
+````
+sudo yum update -y
+sudo yum install -y docker
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ec2-user
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+````
+````
+docker --version
+````
+
+##  ${\color{lightblue} \textbf{Installation-Steps  \ (Ubuntu)}}$ 
+
+
+````
+sudo apt update -y
+sudo apt install  docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ubuntu
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+````
+````
+docker --version
+````
 
 
 
