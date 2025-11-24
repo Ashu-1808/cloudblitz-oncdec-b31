@@ -1,5 +1,8 @@
 # Trainer: Abhipray Dhoble 
-
+# daily status update
+````
+https://docs.google.com/spreadsheets/d/1zWpXdHdkSWI3eZjk897oQISNQcsxUPD6_xOpme_Rpf4/edit?usp=sharing
+````
 ## Day 1:
 
 ### Types of IT companies:
